@@ -1,0 +1,25 @@
+/* *********** LOG IN and Sign UP *************** */
+
+.login__field {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+.signUpText:hover{
+    -fx-underline: true;
+}
+
+.resetPasswordText:hover{
+    -fx-underline: true;
+}
+
+.btn:pressed{
+    -fx-translate-y: 2px;
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 2);
+}
+
+.btn:hover{
+    -fx-border-color: #00FFA1;
+}
+
+
