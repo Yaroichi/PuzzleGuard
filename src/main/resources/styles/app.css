@@ -22,4 +22,29 @@
     -fx-border-color: #00FFA1;
 }
 
+.ckeck-box:selected .box{
+    -fx-background-color: #00F7FF;
+    -fx-border-color: #00F7FF;
+    -fx-background-insets: 6, 0;
+
+}
+
+.ckeck-box .mark {
+    -fx-shape: "";
+    -fx-background-color: transparent;
+}
+
+.ckeck-box .box{
+    -fx-shape: "M4 4 H12 V12 H4 Z";
+    -fx-background-color: transparent;
+    -fx-border-color: #00F7FF;
+    -fx-border-width: 1;
+    -fx-border-radius: 0; /* square shape */
+    -fx-padding: 0;
+    -fx-pref-width: 24;
+    -fx-pref-height: 24;
+
+
+}
+
 

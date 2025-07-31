@@ -118,7 +118,7 @@ public class SceneLoader {
         {
             stage.setScene(scene);
             stage.setWidth(659);
-            stage.setHeight(430);
+            stage.setHeight(480);
             stage.setResizable(false);
             stage.centerOnScreen();
             stage.show();
