@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d0e24a-87f6-47b7-ad33-a294a1e6daa6" name="Changes" comment="Loading.SignUp,Login scenes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="27d0e24a-87f6-47b7-ad33-a294a1e6daa6" name="Changes" comment="Loading.SignUp,Login scenes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +144,7 @@
       <workItem from="1753793393639" duration="9070000" />
       <workItem from="1753970830059" duration="12690000" />
       <workItem from="1754048989928" duration="8121000" />
-      <workItem from="1754671047675" duration="3405000" />
+      <workItem from="1754671047675" duration="3899000" />
     </task>
     <task id="LOCAL-00001" summary="Loading,Log in, Sign UP pages done">
       <option name="closed" value="true" />
