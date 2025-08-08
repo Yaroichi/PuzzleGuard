@@ -5,58 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d0e24a-87f6-47b7-ad33-a294a1e6daa6" name="Changes" comment="Loading.SignUp,Login scenes">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/DatabaseManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/PasswordHashing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/SceneLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/UserDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/AppSelectionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/ChoicePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/DigitInputController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/LoadingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/LogInController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/MethodSelectionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/MethodSetUpController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/NewPasswordEntryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/PINSetUpController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/PasswordResetController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/PersonalInfoResetController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/ProfileController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/SignUpController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzleguardinterface/controllers/SubscriptionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/img/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/img/closedEye 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/img/closedEye.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/img/eye.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/img/eye1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/img/signUpBackground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/videos/loading1.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/AppSelection.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/ChoicePage.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/DigitInput.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/Loading.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/LogIn.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/MethodSelection.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/MethodSetUp.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/NewPasswordEntry.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/PINSetUp.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/PasswordReset.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/PersonalInfoReset.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/Profile.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/SignUp.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/puzzleguardinterface/Subscription.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/styles/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +79,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -197,7 +146,7 @@
       <workItem from="1753793393639" duration="9070000" />
       <workItem from="1753970830059" duration="12690000" />
       <workItem from="1754048989928" duration="8121000" />
-      <workItem from="1754671047675" duration="1124000" />
+      <workItem from="1754671047675" duration="3405000" />
     </task>
     <task id="LOCAL-00001" summary="Loading,Log in, Sign UP pages done">
       <option name="closed" value="true" />
