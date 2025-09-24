@@ -21,7 +21,7 @@
             <Image url="@../../../assets/img/background.png" />
          </image>
       </ImageView>
-      <Button id="button" defaultButton="true" layoutX="233.0" layoutY="342.0" mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="186.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-font-size: 23px; -fx-text-fill: #ffffff;" styleClass="btn" text="Log in" textFill="WHITE" />
+      <Button id="button" onMouseClicked="#openChoicePage" defaultButton="true" layoutX="233.0" layoutY="342.0" mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="186.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-font-size: 23px; -fx-text-fill: #ffffff;" styleClass="btn" text="Log in" textFill="WHITE" />
       <StackPane layoutX="107.0" layoutY="228.0" opacity="0.72" prefHeight="52.0" prefWidth="439.0">
             <TextField fx:id="textField" prefHeight="52.0" prefWidth="439.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-text-fill: #ffffff;" styleClass="login__field" />
             <PasswordField fx:id="passwordField" layoutY="1.0" opacity="0.82" prefHeight="52.0" prefWidth="439.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF;" styleClass="login__field" />
@@ -43,7 +43,7 @@
       <Text fill="WHITE" layoutX="110.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20px;" text="Email" />
       <Text fill="WHITE" layoutX="110.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20px;" text="Password" />
       <Text id="signUP" fill="WHITE" layoutX="301.0" layoutY="423.0" onMouseClicked="#openSignUp" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 17px;" styleClass="signUpText" text="Sign up" />
-      <Text fill="WHITE" layoutX="414.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 17px;" styleClass="resetPasswordText" text="Forgot password?" />
+      <Text fill="WHITE" layoutX="414.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 17px;" styleClass="resetPasswordText" text="Forgot password?" onMouseClicked="#forgotPasswordWindow"/>
       
       <HBox />
       <Label layoutX="137.0" layoutY="289.0" style="-fx-text-fill: #ffffff; -fx-font-size: 15px;" text="Remember me" />

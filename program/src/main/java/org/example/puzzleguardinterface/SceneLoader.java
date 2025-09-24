@@ -4,13 +4,16 @@ import javafx.animation.PauseTransition;
 import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import javafx.scene.layout.StackPane;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
 import javafx.util.Duration;
+import org.example.puzzleguardinterface.controllers.ChoicePageController;
 
 import java.io.IOException;
 
@@ -54,6 +57,10 @@ public class SceneLoader {
     {
         loadScene("AppSelection.fxml");
     }
+    public static void setEmailEntry(){
+        loadScene("EmailEntryForPasswordReset.fxml");
+    }
+
     public static void setSubscription()
     {
         loadScene("Subscription.fxml");
@@ -96,98 +103,118 @@ public class SceneLoader {
         Scene scene = null;
 
         try {
-            scene = new Scene(loader.load());
+            Parent root = loader.load();
+            scene = new Scene(root);
             String css = SceneLoader.class.getResource("/styles/app.css").toExternalForm();
             scene.getStylesheets().add(css);
             stage.show();
+
+
+            if(path.equals("Loading.fxml"))
+            {
+                stage.setScene(scene);
+                stage.setWidth(800);
+                stage.setHeight(600);
+                stage.setResizable(false);
+                stage.centerOnScreen();
+                stage.show();
+
+            }
+            if(path.equals("LogIn.fxml"))
+            {
+                stage.setScene(scene);
+                stage.setWidth(659);
+                stage.setHeight(480);
+                stage.setResizable(false);
+                stage.centerOnScreen();
+                stage.show();
+            }
+            else if(path.equals("SignUp.fxml"))
+            {
+                stage.setScene(scene);
+                stage.setWidth(510);
+                stage.setHeight(750);
+                stage.setResizable(false);
+                stage.centerOnScreen();
+                stage.show();
+            }
+            else if(path.equals("EmailEntryForPasswordReset.fxml")){
+                stage.setScene(scene);
+                stage.setWidth(659);
+                stage.setHeight(480);
+                stage.setResizable(false);
+                stage.centerOnScreen();
+                stage.show();
+            }
+            else if(path.equals("ChoicePage.fxml"))
+            {
+                stage.setScene(scene);
+                stage.setFullScreenExitHint("");
+                stage.setFullScreen(true);
+
+                stage.centerOnScreen();
+                if (root instanceof AnchorPane ap) {
+                    ap.prefWidthProperty().bind(scene.widthProperty());
+                    ap.prefHeightProperty().bind(scene.heightProperty());
+                }
+                stage.show();
+            }
+            else if(path.equals("MethodSelection.fxml"))
+            {
+                stage.setScene(scene);
+                stage.setFullScreen(true);
+                stage.show();
+            }
+            else if(path.equals("AppSelection.fxml"))
+            {
+                stage.setScene(scene);
+                stage.setFullScreen(true);
+                stage.show();
+            }
+            else if(path.equals("Subscription.fxml"))
+            {
+                stage.setScene(scene);
+                stage.show();
+            }
+            else if(path.equals("Profile.fxml"))
+            {
+                stage.setScene(scene);
+                stage.show();
+            }
+            else if(path.equals("DigitInput.fxml"))
+            {
+                stage.setScene(scene);
+                stage.show();
+            }
+            else if(path.equals("PasswordReset.fxml"))
+            {
+                stage.setScene(scene);
+                stage.show();
+            }
+            else if(path.equals("PersonalInfoReset.fxml"))
+            {
+                stage.setScene(scene);
+                stage.show();
+            }
+            else if(path.equals("PINSetUp.fxml"))
+            {
+                stage.setScene(scene);
+                stage.show();
+            }
+            else if(path.equals("NewPasswordEntry.fxml"))
+            {
+                stage.setScene(scene);
+                stage.show();
+            }
+            else
+            {
+                stage.setScene(scene);
+                stage.show();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        if(path.equals("Loading.fxml"))
-        {
-            stage.setScene(scene);
-            stage.setWidth(800);
-            stage.setHeight(600);
-            stage.setResizable(false);
-            stage.centerOnScreen();
-            stage.show();
-
-        }
-        if(path.equals("LogIn.fxml"))
-        {
-            stage.setScene(scene);
-            stage.setWidth(659);
-            stage.setHeight(480);
-            stage.setResizable(false);
-            stage.centerOnScreen();
-            stage.show();
-        }
-        else if(path.equals("SignUp.fxml"))
-        {
-            stage.setScene(scene);
-            stage.setWidth(510);
-            stage.setHeight(750);
-            stage.setResizable(false);
-            stage.centerOnScreen();
-            stage.show();
-        }
-        else if(path.equals("ChoicePage.fxml"))
-        {
-            stage.setScene(scene);
-            stage.show();
-        }
-        else if(path.equals("MethodSelection.fxml"))
-        {
-            stage.setScene(scene);
-            stage.show();
-        }
-        else if(path.equals("AppSelection.fxml"))
-        {
-            stage.setScene(scene);
-            stage.show();
-        }
-        else if(path.equals("Subscription.fxml"))
-        {
-            stage.setScene(scene);
-            stage.show();
-        }
-        else if(path.equals("Profile.fxml"))
-        {
-            stage.setScene(scene);
-            stage.show();
-        }
-        else if(path.equals("DigitInput.fxml"))
-        {
-            stage.setScene(scene);
-            stage.show();
-        }
-        else if(path.equals("PasswordReset.fxml"))
-        {
-            stage.setScene(scene);
-            stage.show();
-        }
-        else if(path.equals("PersonalInfoReset.fxml"))
-        {
-            stage.setScene(scene);
-            stage.show();
-        }
-        else if(path.equals("PINSetUp.fxml"))
-        {
-            stage.setScene(scene);
-            stage.show();
-        }
-        else if(path.equals("NewPasswordEntry.fxml"))
-        {
-            stage.setScene(scene);
-            stage.show();
-        }
-        else
-        {
-            stage.setScene(scene);
-            stage.show();
-        }
-
-
     }
 }
+

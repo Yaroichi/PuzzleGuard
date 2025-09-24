@@ -1,14 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="org.example.puzzleguardinterface.ChoicePage"
-            prefHeight="400.0" prefWidth="600.0">
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane fx:id="rootPane" prefHeight="480.0" prefWidth="612.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.puzzleguardinterface.controllers.ChoicePageController">
+   <children>
+      <HBox prefHeight="1080" prefWidth="1920" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+          <children>
+            <VBox HBox.hgrow="ALWAYS">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Choose all of your programs you want to lock" styleClass="headText" textAlignment="CENTER" stroke="greenyellow">
+                        <VBox.margin>
+                              <Insets top="100" right="-150" bottom="8" left="70" />
+                        </VBox.margin>
+                  </Text>
+                  <Button id="button" onMouseClicked="#openAppSelectionWindow" defaultButton="true"  mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="186.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-font-size: 23px; -fx-text-fill: #ffffff;" styleClass="btn" text="Choose" textFill="WHITE">
+                          <VBox.margin>
+                             <Insets top="250" left="270" right="0" bottom="0"/>
+                          </VBox.margin>
+                  </Button>
+                  <ImageView  fitHeight="333" fitWidth="273" layoutX="405.0" layoutY="18.0" styleClass="unlock" >
+                     <Image url="@../../../assets/img/lockimg.png" />
+                     <VBox.margin>
+                        <Insets bottom="0" left="220" right="0" top="50" />
+                     </VBox.margin>
+                  </ImageView>
 
+               </children>
+            </VBox>
+            <Separator orientation="VERTICAL" prefHeight="480.0" prefWidth="0.0" style="-fx-background-color: #ffffff; -fx-border-color: #00FF66; -fx-border-width: 2px;" styleClass="separator" />
+            <VBox HBox.hgrow="ALWAYS">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Choose method to unlock" styleClass="headText" textAlignment="CENTER" stroke="greenyellow">
+                     <VBox.margin>
+                        <Insets top="100" right="-100" bottom="8" left="200" />
+                     </VBox.margin>
+                  </Text>
+                  <Button id="button" onMouseClicked="#openMethodSelection" defaultButton="true"  mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="186.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-font-size: 23px; -fx-text-fill: #ffffff;" styleClass="btn" text="Choose" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="250" left="270" right="0" bottom="0"/>
+                     </VBox.margin>
+                  </Button>
+                  <ImageView  fitHeight="333" fitWidth="273" layoutX="405.0" layoutY="18.0" styleClass="unlock" >
+                     <Image url="@../../../assets/img/unlockimg.png" />
+                     <VBox.margin>
+                        <Insets bottom="0" left="230" right="10" top="50" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
 </AnchorPane>

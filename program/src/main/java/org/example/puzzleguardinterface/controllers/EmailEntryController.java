@@ -1,4 +1,5 @@
 package org.example.puzzleguardinterface.controllers;
 
-public class ChoicePage {
+public class EmailEntryController {
+
 }

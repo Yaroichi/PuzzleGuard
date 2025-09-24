@@ -73,5 +73,13 @@ public class LogInController {
     private void openSignUp(){
         SceneLoader.setSignUp();
     }
+    @FXML
+    private void openChoicePage(){
+        SceneLoader.setChoicePage();
+    }
+    @FXML
+    private void forgotPasswordWindow(){
+        SceneLoader.setEmailEntry();
+    }
 
 }

@@ -53,5 +53,20 @@
 #passwordField{
     -fx-padding:10px ;
 }
+.separator:vertical .line{
+    -fx-border-width: 0 0.5px 0 0;
+}
+
+.headText {
+    -fx-stroke: #00FF66;
+    -fx-fill: #ffffff;
+   /* -fx-stroke-width: 1px; */
+    -fx-font-size: 30px;
+
+}
+
+.unlock{
+
+}
 
 
