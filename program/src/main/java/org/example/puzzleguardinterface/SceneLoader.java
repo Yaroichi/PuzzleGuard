@@ -7,6 +7,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.scene.layout.StackPane;
 import javafx.scene.media.Media;
@@ -168,7 +169,16 @@ public class SceneLoader {
             else if(path.equals("AppSelection.fxml"))
             {
                 stage.setScene(scene);
+                stage.setFullScreenExitHint("");
                 stage.setFullScreen(true);
+
+                stage.centerOnScreen();
+                if (root instanceof AnchorPane ap) {
+                    ap.prefWidthProperty().bind(scene.widthProperty());
+                    ap.prefHeightProperty().bind(scene.heightProperty());
+                }
+                Font testFont = Font.loadFont(SceneLoader.class.getResourceAsStream("/assets/fonts/Inter_24pt-SemiBold.ttf"), 14);
+                System.out.println(testFont.getName());
                 stage.show();
             }
             else if(path.equals("Subscription.fxml"))

@@ -74,7 +74,7 @@ public class LogInController {
         SceneLoader.setSignUp();
     }
     @FXML
-    private void openChoicePage(){
+    public void openChoicePage(){
         SceneLoader.setChoicePage();
     }
     @FXML

@@ -1,5 +1,10 @@
 /* *********** LOG IN and Sign UP *************** */
 
+/*@font-face {*/
+/*    font-family: 'Inter 24pt SemiBold';*/
+/*    src: url('/assets/fonts/Inter_24pt-SemiBold.ttf');*/
+/*}*/
+
 .login__field {
     -fx-text-fill: white;
     -fx-font-size: 20px;
@@ -60,13 +65,68 @@
 .headText {
     -fx-stroke: #00FF66;
     -fx-fill: #ffffff;
-   /* -fx-stroke-width: 1px; */
+    /*-fx-stroke-width: 0.5px;*/
     -fx-font-size: 30px;
 
-}
-
-.unlock{
 
 }
+
+.navbar {
+    -fx-background-color: black;
+
+
+}
+.logoText{
+    -fx-font-family: 'Inter 24pt SemiBold';
+    -fx-fill: #ffffff;
+    -fx-stroke: #00FF66;
+    -fx-font-size: 27px;
+    -fx-stroke-width: 0.5px;
+}
+
+.profileText
+{
+    -fx-fill: #ffffff;
+    -fx-font-size: 30px;
+}
+
+.head-text{
+    -fx-fill: #ffffff;
+    /*-fx-stroke: #00FF66;*/
+    -fx-font-size: 40px;
+    -fx-stroke-width: 0.5px;
+}
+
+.arrowBtn
+{
+    -fx-background-color: #156152;
+    -fx-background-radius: 100%;
+    -fx-border-radius: 100%;
+    -fx-alignment: center;
+}
+
+.arrowBtn:pressed{
+    -fx-translate-y: 2px;
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 2);
+}
+
+.arrowBtn:hover{
+    -fx-background-color: #03ac6c;
+}
+
+.borderPane
+{
+    -fx-border-color: red;
+    -fx-border-width: 1px;
+}
+.stackPane{
+    fx-border-color: red;
+    -fx-border-width: 1px;
+}
+
+.appSelectionButton{
+
+}
+
 
 
