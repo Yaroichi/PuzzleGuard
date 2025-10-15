@@ -1,4 +1,4 @@
 package org.example.puzzleguardinterface.controllers;
 
-public class NewPasswordEntryController {
+public class NewPINEntryController {
 }

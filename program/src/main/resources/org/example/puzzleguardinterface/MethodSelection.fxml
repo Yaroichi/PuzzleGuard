@@ -1,14 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="org.example.puzzleguardinterface.controllers.MethodSelectionController"
-            prefHeight="400.0" prefWidth="600.0">
+            prefHeight="400.0" prefWidth="600.0"
+            fx:id="root">
+    <top>
+        <HBox fx:id="navBar" styleClass="navbar">
+            <padding>
+                <Insets top="10" right="0" bottom="0" left="0" />
+            </padding>
+            <HBox  alignment="CENTER_LEFT" spacing="10" BorderPane.alignment="CENTER_LEFT">
+                <ImageView fitHeight="60" preserveRatio="true">
+                    <Image url="@../../../assets/img/logo.jpg" />
 
-</AnchorPane>
+                </ImageView>
+                <Text styleClass="logoText" text="PUZZLE GUARD"/>
+            </HBox>
+            <Region HBox.hgrow="ALWAYS"/>
+            <HBox alignment="CENTER_RIGHT"  spacing="10" BorderPane.alignment="CENTER_RIGHT" >
+                <ImageView fitHeight="15" preserveRatio="true" >
+                    <Image url="@../../../assets/img/profarrow.png" />
+
+                </ImageView>
+                <Text styleClass="profileText" text="Nick_Name"/>
+            </HBox>
+        </HBox>
+    </top>
+    <center>
+        <BorderPane styleClass="borderPane">
+            <top>
+                <HBox alignment="CENTER" BorderPane.alignment="CENTER">
+                    <padding>
+                        <Insets top="25" right="20" bottom="25" left="20" />
+                    </padding>
+                    <Button styleClass="arrowBtn" onMouseClicked="#openChoicePage">
+                        <graphic>
+                            <ImageView fitHeight="25" fitWidth="35">
+                                <Image url="@../../../assets/img/leftArrow.png"/>
+                            </ImageView>
+                        </graphic>
+                        <padding>
+                            <Insets top="20" right="20" bottom="20" left="20" />
+                        </padding>
+                    </Button>
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Text   strokeType="OUTSIDE" strokeWidth="0.0" text="Pick one of the options below" styleClass="head-text" textAlignment="CENTER" stroke="greenyellow">-->
+                        <VBox.margin>
+                            <Insets top="20" right="0" bottom="0" left="0" />
+                        </VBox.margin>
+                    </Text>
+                    <Pane HBox.hgrow="ALWAYS" />
+                </HBox>
+            </top>
+            <center>
+                <HBox alignment="CENTER" spacing="40">
+                    <VBox alignment="CENTER" spacing="40" styleClass="card" HBox.hgrow="NEVER" prefHeight="550" minHeight="550" maxHeight="550">
+                        <Text text="#1" styleClass="cardText" textAlignment="CENTER">
+
+                        </Text>
+                        <Rectangle width="250" height="3" styleClass="line">
+
+                        </Rectangle>
+                        <Text text="Password" textAlignment="CENTER" styleClass="cardText">
+
+                        </Text>
+                        <ImageView fitHeight="150">
+                            <Image url="@../../../assets/img/password.png" />
+                        </ImageView>
+                        <Region VBox.vgrow="ALWAYS" />
+                        <Button id="button"  defaultButton="true" onMouseClicked="#openPINSetUp"  mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="150.0"  styleClass="cardBtn" text="Set up" textFill="WHITE" />
+                        <padding>
+                            <Insets top="35" bottom="35" />
+                        </padding>
+                    </VBox>
+                    <VBox alignment="TOP_CENTER" spacing="40" styleClass="card" HBox.hgrow="NEVER" prefHeight="550" minHeight="550" maxHeight="550">
+                        <Text text="#2" styleClass="cardText" textAlignment="CENTER">
+
+                        </Text>
+                        <Rectangle width="250" height="3" styleClass="line">
+
+                        </Rectangle>
+                        <Text text="Riddles and Logic&#10;quizzes" textAlignment="CENTER" styleClass="cardText">
+
+                        </Text>
+                        <HBox alignment="TOP_CENTER" prefHeight="115" minHeight="115" maxHeight="115">
+                            <ImageView fitHeight="100" >
+                                <Image url="@../../../assets/img/circlePuzzle.png" />
+
+                            </ImageView>
+                        </HBox>
+
+                        <Region VBox.vgrow="ALWAYS" />
+                        <Button id="button"  defaultButton="true"  mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="150.0"  styleClass="cardBtn" text="Set up" textFill="WHITE" />
+                        <padding>
+                            <Insets top="35" bottom="35" />
+                        </padding>
+                    </VBox>
+                    <VBox alignment="TOP_CENTER" spacing="40" styleClass="card" HBox.hgrow="NEVER" prefHeight="550" minHeight="550" maxHeight="550">
+                        <Text text="#3" styleClass="cardText" textAlignment="CENTER">
+
+                        </Text>
+                        <Rectangle width="250" height="3" styleClass="line">
+
+                        </Rectangle>
+                        <Text text="Math(Different levels)" textAlignment="CENTER" styleClass="cardText">
+
+                        </Text>
+                        <HBox alignment="CENTER" prefHeight="150" minHeight="150" maxHeight="150">
+                            <ImageView   fitHeight="115">
+                                <Image url="@../../../assets/img/mathIcons.png" />
+                            </ImageView>
+                        </HBox>
+
+                        <Region VBox.vgrow="ALWAYS" />
+                        <Button   id="button"  defaultButton="true"  mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="150.0"  styleClass="cardBtn" text="Set up" textFill="WHITE" />
+                        <padding>
+                            <Insets top="35" bottom="45" />
+                        </padding>
+                    </VBox>
+                    <VBox alignment="TOP_CENTER" spacing="40" styleClass="card" HBox.hgrow="NEVER" prefHeight="550" minHeight="550" maxHeight="550">
+                        <Text text="#4" styleClass="cardText" textAlignment="CENTER">
+
+                        </Text>
+                        <Rectangle width="250" height="3" styleClass="line">
+
+                        </Rectangle>
+                        <Text text="Geography" textAlignment="CENTER" styleClass="cardText">
+
+                        </Text>
+                        <ImageView fitHeight="150">
+                            <Image url="@../../../assets/img/map.png" />
+                        </ImageView>
+                        <Region VBox.vgrow="ALWAYS" />
+                        <Button  id="button"  defaultButton="true"  mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="150.0"  styleClass="cardBtn" text="Set up" textFill="WHITE" />
+                        <padding>
+                            <Insets top="35" bottom="35" />
+                        </padding>
+                    </VBox>
+
+                </HBox>
+            </center>
+        </BorderPane>
+    </center>
+</BorderPane>
+

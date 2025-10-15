@@ -90,7 +90,7 @@ public class SceneLoader {
     }
     public static void setNewPasswordEntry()
     {
-        loadScene("NewPasswordEntry.fxml");
+        loadScene("NewPINdEntry.fxml");
     }
     public static void setMethodSetUp()
     {
@@ -208,10 +208,14 @@ public class SceneLoader {
             }
             else if(path.equals("PINSetUp.fxml"))
             {
+                boolean wasFullScreen = stage.isFullScreen();
                 stage.setScene(scene);
+                stage.setFullScreen(wasFullScreen);
+                stage.setFullScreenExitHint("");
+                stage.centerOnScreen();
                 stage.show();
             }
-            else if(path.equals("NewPasswordEntry.fxml"))
+            else if(path.equals("NewPINEntry.fxml"))
             {
                 stage.setScene(scene);
                 stage.show();
