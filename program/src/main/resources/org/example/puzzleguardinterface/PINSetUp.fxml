@@ -21,7 +21,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="org.example.puzzleguardinterface.controllers.MethodSelectionController"
+            fx:controller="org.example.puzzleguardinterface.controllers.PINSetUpController"
             prefHeight="400.0" prefWidth="600.0"
             fx:id="root">
     <top>
@@ -53,7 +53,7 @@
                     <padding>
                         <Insets top="25" right="20" bottom="25" left="20" />
                     </padding>
-                    <Button styleClass="arrowBtn" onMouseClicked="#openChoicePage">
+                    <Button styleClass="arrowBtn" onMouseClicked="#openMethodSelection">
                         <graphic>
                             <ImageView fitHeight="25" fitWidth="35">
                                 <Image url="@../../../assets/img/leftArrow.png"/>
@@ -74,7 +74,7 @@
             </top>
             <center>
                 <VBox spacing="40" alignment="CENTER">
-                    <Button id="button"   mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="200.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-font-size: 23px; -fx-text-fill: #ffffff;" styleClass="btn" text="Create new  PIN" textFill="WHITE" />
+                    <Button id="button" onMouseClicked="#openNewPINEntry"  mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="200.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-font-size: 23px; -fx-text-fill: #ffffff;" styleClass="btn" text="Create new PIN" textFill="WHITE" />
                     <Button id="button"   mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="200.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-font-size: 23px; -fx-text-fill: #ffffff;" styleClass="btn" text="Reset old PIN" textFill="WHITE" />
                 </VBox>
             </center>
