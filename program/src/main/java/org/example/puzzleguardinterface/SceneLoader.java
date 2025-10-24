@@ -36,6 +36,8 @@ public class SceneLoader {
         });
         delay.play();
     }
+
+
     public static void setLogIn()
     {
         loadScene("LogIn.fxml");
@@ -92,9 +94,9 @@ public class SceneLoader {
     {
         loadScene("NewPINEntry.fxml");
     }
-    public static void setMethodSetUp()
+    public static void setRiddlesSetUp()
     {
-        loadScene("MethodSetUp.fxml");
+        loadScene("RiddlesSetUp.fxml");
     }
 
     public static void loadScene(String path)
@@ -188,7 +190,11 @@ public class SceneLoader {
             }
             else if(path.equals("Profile.fxml"))
             {
+                boolean wasFullScreen = stage.isFullScreen();
                 stage.setScene(scene);
+                stage.setFullScreen(wasFullScreen);
+                stage.setFullScreenExitHint("");
+                stage.centerOnScreen();
                 stage.show();
             }
             else if(path.equals("DigitInput.fxml"))
@@ -216,6 +222,15 @@ public class SceneLoader {
                 stage.show();
             }
             else if(path.equals("NewPINEntry.fxml"))
+            {
+                boolean wasFullScreen = stage.isFullScreen();
+                stage.setScene(scene);
+                stage.setFullScreen(wasFullScreen);
+                stage.setFullScreenExitHint("");
+                stage.centerOnScreen();
+                stage.show();
+            }
+            else if(path.equals("RiddlesSetUp.fxml"))
             {
                 boolean wasFullScreen = stage.isFullScreen();
                 stage.setScene(scene);

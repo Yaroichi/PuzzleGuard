@@ -158,6 +158,57 @@
     -fx-effect:  innershadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 2) ;
 }
 
+.riddleLabel
+{
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 35px;
+}
+.combobox{
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+.combobox .list-view {
+    -fx-background-color: #002b29;
+    -fx-border-color: #00F7FF;
+    -fx-border-width: 1px;
+    -fx-control-inner-background: transparent;
+}
+
+.combobox .list-cell {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-color: transparent;
+}
+
+
+.menu-item
+{
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+
+}
+
+.context-menu{
+    -fx-background-color: #002b29;
+    -fx-border-color: #00F7FF;
+    -fx-border-width: 1px;
+    -fx-control-inner-background: transparent;
+}
+.menu {
+    -fx-background-color: #000;
+    -fx-text-fill: #00ffaa;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.menu > .arrow-button{
+    -fx-content-display: left;
+}
+.menu > .arrow-button > .arrow{
+    -fx-background-color: #00ffaa;
+    -fx-shape: "M 0 0 L 6 6 L 12 0 Z"; /* triangle shape */
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+}
 
 
 
