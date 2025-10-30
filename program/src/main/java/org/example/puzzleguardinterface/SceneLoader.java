@@ -98,6 +98,10 @@ public class SceneLoader {
     {
         loadScene("RiddlesSetUp.fxml");
     }
+    public static void setEmailResetMessage()
+    {
+        loadScene("EmailResetMessage.fxml");
+    }
 
     public static void loadScene(String path)
     {
@@ -199,7 +203,11 @@ public class SceneLoader {
             }
             else if(path.equals("DigitInput.fxml"))
             {
+                boolean wasFullScreen = stage.isFullScreen();
                 stage.setScene(scene);
+                stage.setFullScreen(wasFullScreen);
+                stage.setFullScreenExitHint("");
+                stage.centerOnScreen();
                 stage.show();
             }
             else if(path.equals("PasswordReset.fxml"))
@@ -209,7 +217,11 @@ public class SceneLoader {
             }
             else if(path.equals("PersonalInfoReset.fxml"))
             {
+                boolean wasFullScreen = stage.isFullScreen();
                 stage.setScene(scene);
+                stage.setFullScreen(wasFullScreen);
+                stage.setFullScreenExitHint("");
+                stage.centerOnScreen();
                 stage.show();
             }
             else if(path.equals("PINSetUp.fxml"))
@@ -231,6 +243,15 @@ public class SceneLoader {
                 stage.show();
             }
             else if(path.equals("RiddlesSetUp.fxml"))
+            {
+                boolean wasFullScreen = stage.isFullScreen();
+                stage.setScene(scene);
+                stage.setFullScreen(wasFullScreen);
+                stage.setFullScreenExitHint("");
+                stage.centerOnScreen();
+                stage.show();
+            }
+            else if(path.equals("EmailResetMessage.fxml"))
             {
                 boolean wasFullScreen = stage.isFullScreen();
                 stage.setScene(scene);

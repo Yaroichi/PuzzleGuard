@@ -23,7 +23,7 @@
 <?import javafx.scene.control.ComboBox?>
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="org.example.puzzleguardinterface.controllers.PersonalInfoResetController"
+            fx:controller="org.example.puzzleguardinterface.controllers.EmailResetMessageController"
             prefHeight="400.0" prefWidth="600.0"
             fx:id="root">
 
@@ -34,7 +34,8 @@
                     <padding>
                         <Insets top="25" right="20" bottom="25" left="20" />
                     </padding>
-                    <Button styleClass="arrowBtn" onMouseClicked="#goBackToProfile">
+
+                    <Button styleClass="arrowBtn" onMouseClicked="#goBackToEmailEntry">
                         <graphic>
                             <ImageView fitHeight="25" fitWidth="35">
                                 <Image url="@../../../assets/img/leftArrow.png"/>
@@ -44,22 +45,16 @@
                             <Insets top="20" right="20" bottom="20" left="20" />
                         </padding>
                     </Button>
-                    <Pane HBox.hgrow="ALWAYS" />
-                    <VBox alignment="CENTER_LEFT" prefWidth="650">
-                        <Text   strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your new Email" styleClass="head-text" textAlignment="CENTER" stroke="greenyellow">-->
-                            <VBox.margin>
-                                <Insets top="20" right="0" bottom="0" left="100" />
-                            </VBox.margin>
-                        </Text>
-                    </VBox>
-
-                    <Pane HBox.hgrow="ALWAYS" />
+                    <Pane HBox.hgrow="ALWAYS"/>
                 </HBox>
             </top>
             <center>
-                <VBox  spacing="60" alignment="CENTER"  prefWidth="400" maxWidth="400" minWidth="400">
-                    <TextField  layoutX="109.0" layoutY="126.0" opacity="0.82" prefHeight="52.0" prefWidth="400.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-text-fill: #ffffff;" styleClass="login__field"/>
-                    <Button id="button" onMouseClicked="#openEmailConfirmationMessage"   mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="200.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-font-size: 23px; -fx-text-fill: #ffffff;" styleClass="btn" text="Confirm" textFill="WHITE" >
+                <VBox  spacing="60" alignment="CENTER"  prefWidth="800" maxWidth="800" minWidth="800">
+                    <Text  wrappingWidth="800"  strokeWidth="0.0" text="A confirmation email has been sent to your new address.
+Please check your inbox and click the link to verify your new email.
+Your email won’t be updated until the confirmation is completed." styleClass="head-text" textAlignment="CENTER" >
+                    </Text>
+                    <Button id="button"   mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="200.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-font-size: 23px; -fx-text-fill: #ffffff;" styleClass="btn" text="Confirmed" textFill="WHITE" >
                     </Button>
                 </VBox>
             </center>
