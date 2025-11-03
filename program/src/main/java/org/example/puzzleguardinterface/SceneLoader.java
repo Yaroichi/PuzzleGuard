@@ -212,7 +212,11 @@ public class SceneLoader {
             }
             else if(path.equals("PasswordReset.fxml"))
             {
+                boolean wasFullScreen = stage.isFullScreen();
                 stage.setScene(scene);
+                stage.setFullScreen(wasFullScreen);
+                stage.setFullScreenExitHint("");
+                stage.centerOnScreen();
                 stage.show();
             }
             else if(path.equals("PersonalInfoReset.fxml"))

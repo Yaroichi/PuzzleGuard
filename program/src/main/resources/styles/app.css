@@ -210,5 +210,10 @@
     -fx-scale-y: 1;
 }
 
+.digidInput{
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+}
+
 
 
