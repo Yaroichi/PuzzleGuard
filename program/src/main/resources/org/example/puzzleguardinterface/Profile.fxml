@@ -34,7 +34,7 @@
                     <padding>
                         <Insets top="25" right="20" bottom="25" left="20" />
                     </padding>
-                    <Button styleClass="arrowBtn" >
+                    <Button styleClass="arrowBtn"  >
                         <graphic>
                             <ImageView fitHeight="25" fitWidth="35">
                                 <Image url="@../../../assets/img/leftArrow.png"/>
