@@ -82,6 +82,9 @@ public class SceneLoader {
     {
         loadScene("PasswordReset.fxml");
     }
+    public static void setPaymentSelection(){
+        loadScene("PaymentSelection.fxml");
+    }
     public static void setPersonalInfoReset()
     {
         loadScene("PersonalInfoReset.fxml");
@@ -189,7 +192,11 @@ public class SceneLoader {
             }
             else if(path.equals("Subscription.fxml"))
             {
+                boolean wasFullScreen = stage.isFullScreen();
                 stage.setScene(scene);
+                stage.setFullScreen(wasFullScreen);
+                stage.setFullScreenExitHint("");
+                stage.centerOnScreen();
                 stage.show();
             }
             else if(path.equals("Profile.fxml"))
@@ -257,6 +264,14 @@ public class SceneLoader {
             }
             else if(path.equals("EmailResetMessage.fxml"))
             {
+                boolean wasFullScreen = stage.isFullScreen();
+                stage.setScene(scene);
+                stage.setFullScreen(wasFullScreen);
+                stage.setFullScreenExitHint("");
+                stage.centerOnScreen();
+                stage.show();
+            }
+            else if(path.equals("PaymentSelection.fxml")) {
                 boolean wasFullScreen = stage.isFullScreen();
                 stage.setScene(scene);
                 stage.setFullScreen(wasFullScreen);
