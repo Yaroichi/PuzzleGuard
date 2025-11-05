@@ -26,4 +26,15 @@ public class PINSetUpController {
     {
         SceneLoader.setMethodSelection();
     }
+    @FXML
+    private void openProfile()
+    {
+        SceneLoader.setProfile();
+    }
+
+    @FXML
+    private void openSubscriptions()
+    {
+        SceneLoader.setSubscription();
+    }
 }

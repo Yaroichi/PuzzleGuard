@@ -21,6 +21,9 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.CustomMenuItem?>
+<?import javafx.scene.text.Font?>
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="org.example.puzzleguardinterface.controllers.RiddlesSetUpController"
@@ -29,22 +32,40 @@
     <top>
         <HBox fx:id="navBar" styleClass="navbar">
             <padding>
-                <Insets top="10" right="0" bottom="0" left="0" />
+                <Insets bottom="0" left="0" right="0" top="10" />
             </padding>
-            <HBox  alignment="CENTER_LEFT" spacing="10" BorderPane.alignment="CENTER_LEFT">
+            <HBox alignment="CENTER_LEFT" spacing="10" BorderPane.alignment="CENTER_LEFT">
                 <ImageView fitHeight="60" preserveRatio="true">
                     <Image url="@../../../assets/img/logo.jpg" />
 
                 </ImageView>
-                <Text styleClass="logoText" text="PUZZLE GUARD"/>
+                <Text styleClass="logoText" text="PUZZLE GUARD" />
             </HBox>
-            <Region HBox.hgrow="ALWAYS"/>
-            <HBox alignment="CENTER_RIGHT"  spacing="10" BorderPane.alignment="CENTER_RIGHT" >
-                <ImageView fitHeight="15" preserveRatio="true" >
-                    <Image url="@../../../assets/img/profarrow.png" />
+            <Region HBox.hgrow="ALWAYS" />
+            <HBox alignment="CENTER_RIGHT" spacing="10" BorderPane.alignment="CENTER_RIGHT">
+                <MenuButton prefHeight="56.0" prefWidth="250.0" styleClass="menu-button" text="Nick_Name" style="-fx-background-color: #000; -fx-border-color: #000; ">
+                    <items>
+                        <CustomMenuItem>
+                            <content>
+                                <Label text="Profile" textFill="WHITE" onMouseClicked="#openProfile"/>
+                            </content>
+                        </CustomMenuItem>
+                        <CustomMenuItem>
+                            <content>
+                                <Label text="Subscriptions" textFill="WHITE" onMouseClicked="#openSubscriptions"/>
+                            </content>
+                        </CustomMenuItem>
+                    </items>
+                    <graphic>
+                        <ImageView fx:id="buttonIcon" fitWidth="24" fitHeight="24" pickOnBounds="true" preserveRatio="true" >
+                            <Image url="@../../../assets/img/profarrow.png" />
+                        </ImageView>
 
-                </ImageView>
-                <Text styleClass="profileText" text="Nick_Name"/>
+                    </graphic>
+                    <font>
+                        <Font size="28.0" />
+                    </font>
+                </MenuButton>
             </HBox>
         </HBox>
     </top>

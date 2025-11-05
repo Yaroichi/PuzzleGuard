@@ -20,4 +20,15 @@ public class NewPINEntryController {
     {
         SceneLoader.setPINSetUp();
     }
+    @FXML
+    private void openProfile()
+    {
+        SceneLoader.setProfile();
+    }
+
+    @FXML
+    private void openSubscriptions()
+    {
+        SceneLoader.setSubscription();
+    }
 }

@@ -7,7 +7,7 @@ import org.example.puzzleguardinterface.SceneLoader;
 
 public class ChoicePageController {
     @FXML
-     private AnchorPane rootPane;
+     private BorderPane rootPane;
 
     public void initialize(){
         BackgroundImage bg = new BackgroundImage(new Image(ChoicePageController.class.getResource("/assets/img/background2.jpg").toExternalForm()), BackgroundRepeat.NO_REPEAT,BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER,new BackgroundSize(100,100,true,true,true,true));

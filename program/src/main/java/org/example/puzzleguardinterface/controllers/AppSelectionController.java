@@ -14,9 +14,21 @@ public class AppSelectionController {
         root.setBackground(new Background(bg));
 
     }
-@FXML
+    @FXML
     private void openChoicePage(){
         SceneLoader.setChoicePage();
+    }
+
+    @FXML
+    private void openProfile()
+    {
+        SceneLoader.setProfile();
+    }
+
+    @FXML
+    private void openSubscriptions()
+    {
+        SceneLoader.setSubscription();
     }
 
 }
