@@ -84,7 +84,7 @@
                             <Label styleClass="riddleLabel" text="Change password"  prefWidth="300"/>
                             <Button id="button" onMouseClicked="#resetPassword"  defaultButton="true" layoutX="233.0" layoutY="342.0" mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="186.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-font-size: 23px; -fx-text-fill: #ffffff;" styleClass="btn" text="Reset" textFill="WHITE" />
                         </HBox>
-                        <Button id="button"   mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="200.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-font-size: 23px; -fx-text-fill: #ffffff;" styleClass="btn" text="Confirm" textFill="WHITE" >
+                        <Button id="button"   mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="200.0" style="-fx-background-color: #156152; -fx-border-color: #00F7FF; -fx-font-size: 23px; -fx-text-fill: #ffffff;" styleClass="btn" text="Log out" textFill="WHITE" >
                             <VBox.margin>
                                 <Insets top=" 50" bottom="0"/>
                             </VBox.margin>

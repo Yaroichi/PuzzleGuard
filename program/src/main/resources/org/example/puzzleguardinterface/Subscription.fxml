@@ -177,7 +177,7 @@
                             </padding>
                         </VBox>
                         <VBox alignment="CENTER" maxHeight="435" minHeight="435" prefHeight="430" spacing="10" styleClass="sub-card" HBox.hgrow="NEVER">
-                            <Text styleClass="sub-title3" text="#2" textAlignment="CENTER"/>
+                            <Text styleClass="sub-title3" text="#3" textAlignment="CENTER"/>
                             <StackPane  styleClass="sub-line3" >
                                 <Text styleClass="sub-text" text="Bronze" textAlignment="CENTER"/>
                             </StackPane>

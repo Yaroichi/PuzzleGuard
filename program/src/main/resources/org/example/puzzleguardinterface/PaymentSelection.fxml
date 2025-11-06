@@ -46,7 +46,7 @@
                     </Button>
                     <Pane HBox.hgrow="ALWAYS" />
                     <VBox alignment="CENTER_LEFT" prefWidth="650">
-                        <Text   strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your new Email" styleClass="head-text" textAlignment="CENTER" stroke="greenyellow">-->
+                        <Text   strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your payment method" styleClass="head-text" textAlignment="CENTER" stroke="greenyellow">-->
                             <VBox.margin>
                                 <Insets top="20" right="0" bottom="0" left="100" />
                             </VBox.margin>
