@@ -10,6 +10,7 @@ https://www.figma.com/design/LUSYS3phwEOzpt3QsgWX5c/PuzzleGuardWebSite?node-id=0
 https://www.figma.com/design/hPG977bv9t35BHmYVXRwYz/PuzzleGuard?node-id=0-1&t=48Jon7zngLABRjlg-1   -  Program UI/Initial designs
 
 
+
 ## 🚀 Features
 
 - Block and unblock chosen applications
