@@ -1,4 +1,4 @@
-Puzzle Guard App
+ Puzzle Guard App(currently in progress of developing authentication functionality)
 
 Puzzle Guard is a productivity-focused desktop application that helps users stay focused by blocking distracting apps.  
 Blocked apps can only be unlocked after completing a small task — such as solving a math exercise, a programming challenge,a riddle,a geogrpahy task or a computer scnience quiz(options will grow with succes of the first version).  
@@ -67,7 +67,31 @@ https://trello.com/invite/b/67437fc2a7c4044bc069b69d/ATTI3df9e663a4778c9bee4f0aa
 - Planned support for social login (Google, GitHub)
 
 ## 🔐 Subscription/Payment functionality
-- 
+
+
+## 🔐Puzzle Guard will integrate with a PostgreSQL database to store all essential data:
+
+-User accounts and authentication details
+-Puzzles, quizzes, and other tasks
+-Application usage data
+-Subscription information
+
+## 🔐 Dynamic Scene Switching (Backend-Driven Navigation)
+
+The user interface dynamically will switch between scenes or pages based on backend commands, rather than reloading or preloading all UI elements at once.
+This approach helps:
+
+-Reduce unnecessary resource usage
+-Keep transitions smooth,
+-Allow the system to control what the user sees depending on their state (e.g., subscription status, login success, or puzzle completion).
+
+## 🔐 Payment handling 
+-Puzzle Guard will act as a secure intermediary between the user and external payment providers.
+-When a user chooses to upgrade or subscribe, the program redirects them to trusted third-party payment gateways such as Google Pay, PayPal, or other supported services.
+
+## 🔐 Puzzle Guard can automatically detect which applications are installed on the user’s computer.
+-It dynamically loads the corresponding program icons into the user interface, allowing the user to select which apps they want to block.
+-This makes the experience personalized and intuitive — users can manage blocking visually rather than manually typing program names.
 
 ## 🧰 Installation & Setup (in progress)
 
