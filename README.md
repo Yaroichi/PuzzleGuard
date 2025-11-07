@@ -8,7 +8,8 @@ Moreover,this project will have website where app will be downloaded.
 
 https://www.figma.com/design/LUSYS3phwEOzpt3QsgWX5c/PuzzleGuardWebSite?node-id=0-1&t=ntFizzZiZ2ri1vVf-1  - Website UI/Initial designs
 https://www.figma.com/design/hPG977bv9t35BHmYVXRwYz/PuzzleGuard?node-id=0-1&t=48Jon7zngLABRjlg-1   -  Program UI/Initial designs
-
+PuzzleGuard.docx - documentation
+https://trello.com/invite/b/67437fc2a7c4044bc069b69d/ATTI3df9e663a4778c9bee4f0aa575eebbf9A31A2F0B/puzzleguard - Trello board link
 
 
 ## 🚀 Features
