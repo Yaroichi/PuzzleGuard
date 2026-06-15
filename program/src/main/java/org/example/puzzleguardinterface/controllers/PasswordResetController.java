@@ -18,6 +18,6 @@ public class PasswordResetController {
 
     @FXML
     private void goBackToDigitInput(){
-        SceneLoader.setPasswordReset();
+        SceneLoader.load("PasswordReset.fxml");
     }
 }

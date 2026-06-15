@@ -16,19 +16,19 @@ public class AppSelectionController {
     }
     @FXML
     private void openChoicePage(){
-        SceneLoader.setChoicePage();
+        SceneLoader.load("ChoicePage.fxml");
     }
 
     @FXML
     private void openProfile()
     {
-        SceneLoader.setProfile();
+        SceneLoader.load("Profile.fxml");
     }
 
     @FXML
     private void openSubscriptions()
     {
-        SceneLoader.setSubscription();
+        SceneLoader.load("Subcription.fxml");
     }
 
 }

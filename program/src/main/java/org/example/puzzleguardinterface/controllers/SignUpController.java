@@ -35,7 +35,7 @@ public class SignUpController{
 
     @FXML
     private void returnToLogin(){
-        SceneLoader.setLogIn();
+        SceneLoader.load("Login.fxml");
     }
     @FXML
     private void addUser(){

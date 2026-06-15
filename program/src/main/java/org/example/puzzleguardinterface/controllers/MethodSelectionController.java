@@ -16,28 +16,28 @@ public class MethodSelectionController {
     }
     @FXML
     private void openChoicePage(){
-        SceneLoader.setChoicePage();
+        SceneLoader.load("ChoicePage.fxml");
     }
 
     @FXML
     private void openPINSetUp(){
-        SceneLoader.setPINSetUp();
+        SceneLoader.load("PINSetup.fxml");
     }
 
     @FXML
     private void openRiddlesSetUP(){
-        SceneLoader.setRiddlesSetUp();
+        SceneLoader.load("RiddlesSetUp.fxml");
     }
 
     @FXML
     private void openProfile()
     {
-        SceneLoader.setProfile();
+        SceneLoader.load("Profile.fxml");
     }
 
     @FXML
     private void openSubscriptions()
     {
-        SceneLoader.setSubscription();
+        SceneLoader.load("Subscription.fxml");
     }
 }

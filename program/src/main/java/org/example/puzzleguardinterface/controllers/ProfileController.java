@@ -58,12 +58,12 @@ public class ProfileController {
     @FXML
     private void resetEmail()
     {
-        SceneLoader.setPersonalInfoReset();
+        SceneLoader.load("PersonalInfoReset.fxml");
     }
 
     @FXML
     private void resetPassword(){
-        SceneLoader.setDigitInput();
+        SceneLoader.load("DigitInput.fxml");
     }
 
 

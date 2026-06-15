@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/puzzleguard
+    username: postgres
+    password:
+
+
+  server:
+    error:
+      include-message:always
+      include-binding-errors:always
+  jpa:
+    hibernate:
+      ddl-auto:create-drop
+    properties:
+      properties:
+        hibernate:
+          dialect:org.hibernate.dialect.PostgreSQLDialect
+          format_sql:true
+          show-sql:true
+
+
+

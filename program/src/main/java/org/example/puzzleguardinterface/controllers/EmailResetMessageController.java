@@ -19,6 +19,6 @@ public class EmailResetMessageController {
     @FXML
     private void goBackToEmailEntry()
     {
-        SceneLoader.setPersonalInfoReset();
+        SceneLoader.load("PersonalInfoReset.fxml");
     }
 }

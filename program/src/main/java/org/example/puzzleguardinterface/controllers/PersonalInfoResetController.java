@@ -18,11 +18,11 @@ public class PersonalInfoResetController {
     @FXML
     private void openEmailConfirmationMessage()
     {
-        SceneLoader.setEmailResetMessage();
+        SceneLoader.load("EmailResetMessage.fxml");
     }
     @FXML
     private void goBackToProfile()
     {
-        SceneLoader.setProfile();
+        SceneLoader.load("Profile.fxml");
     }
 }

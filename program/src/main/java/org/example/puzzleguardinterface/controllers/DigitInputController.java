@@ -106,13 +106,13 @@ public class DigitInputController {
     @FXML
     private void goBackToProfile()
     {
-        SceneLoader.setProfile();;
+        SceneLoader.load("Profile");;
     }
 
     @FXML
     private void resetPassword()
     {
-        SceneLoader.setPasswordReset();
+        SceneLoader.load("PasswordReset.fxml");
     }
 
 //

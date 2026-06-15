@@ -16,11 +16,11 @@ public class ChoicePageController {
 
     @FXML
     private void openAppSelectionWindow(){
-        SceneLoader.setAppSelection();
+        SceneLoader.load("AppSelection.fxml");
     }
 
     @FXML
     private void openMethodSelection(){
-        SceneLoader.setMethodSelection();
+        SceneLoader.load("MethodSelection.fxml");
     }
 }

@@ -18,23 +18,23 @@ public class PINSetUpController {
     @FXML
     private void openNewPINEntry()
     {
-        SceneLoader.setNewPINEntry();
+        SceneLoader.load("NewPINEntry.fxml");
     }
 
     @FXML
     private void openMethodSelection()
     {
-        SceneLoader.setMethodSelection();
+        SceneLoader.load("MethodSelection.fxml");
     }
     @FXML
     private void openProfile()
     {
-        SceneLoader.setProfile();
+        SceneLoader.load("Profile.fxml");
     }
 
     @FXML
     private void openSubscriptions()
     {
-        SceneLoader.setSubscription();
+        SceneLoader.load("Subscription.fxml");
     }
 }

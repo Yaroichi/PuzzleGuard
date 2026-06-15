@@ -51,6 +51,6 @@ public class PaymentSelectionController {
     }
     @FXML
     private void goBackToSubscriptions(){
-        SceneLoader.setSubscription();
+        SceneLoader.load("Subscription.fxml");
     }
 }

@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d0e24a-87f6-47b7-ad33-a294a1e6daa6" name="Changes" comment="Loading.SignUp,Login scenes" />
+    <list default="true" id="27d0e24a-87f6-47b7-ad33-a294a1e6daa6" name="Changes" comment="Loading.SignUp,Login scenes">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/puzzleguard/backend/BackendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/test/java/com/puzzleguard/backend/BackendApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/SceneLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/SceneLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/AppSelectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/AppSelectionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/ChoicePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/ChoicePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/DigitInputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/DigitInputController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/EmailResetMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/EmailResetMessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/LogInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/LogInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/MethodSelectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/MethodSelectionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/NewPINEntryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/NewPINEntryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PINSetUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PINSetUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PasswordResetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PasswordResetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PaymentSelectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PaymentSelectionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PersonalInfoResetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PersonalInfoResetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/ProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/RiddlesSetUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/RiddlesSetUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/SubscriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/SubscriptionController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +82,6 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2z2uZZfvpa30Xk13NWbNLCwiE64" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,10 +92,14 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.PuzzleGuard.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/login-updates&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Funblock/PuzzleGuardInterface/lib/postgresql-42.7.7&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/PuzzleGuard&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -75,9 +107,9 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -95,12 +127,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.32098.37" />
       </set>
     </attachedChunks>
   </component>
@@ -145,6 +186,14 @@
       <workItem from="1753970830059" duration="12690000" />
       <workItem from="1754048989928" duration="8121000" />
       <workItem from="1754671047675" duration="3899000" />
+      <workItem from="1779471618283" duration="2180000" />
+      <workItem from="1780512649039" duration="1294000" />
+      <workItem from="1780602307183" duration="3310000" />
+      <workItem from="1780677598004" duration="1786000" />
+      <workItem from="1781033603701" duration="6991000" />
+      <workItem from="1781202004623" duration="8160000" />
+      <workItem from="1781287560918" duration="12736000" />
+      <workItem from="1781547951496" duration="1302000" />
     </task>
     <task id="LOCAL-00001" summary="Loading,Log in, Sign UP pages done">
       <option name="closed" value="true" />

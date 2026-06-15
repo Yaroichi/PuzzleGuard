@@ -71,15 +71,15 @@ public class LogInController {
 
     @FXML
     private void openSignUp(){
-        SceneLoader.setSignUp();
+        SceneLoader.load("SignUP.fxml");
     }
     @FXML
     public void openChoicePage(){
-        SceneLoader.setChoicePage();
+        SceneLoader.load("ChoicePage.fxml");
     }
     @FXML
     private void forgotPasswordWindow(){
-        SceneLoader.setEmailEntry();
+        SceneLoader.load("EmailEntryForPasswordReset.fxml");
     }
 
 }
