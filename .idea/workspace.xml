@@ -5,34 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d0e24a-87f6-47b7-ad33-a294a1e6daa6" name="Changes" comment="Loading.SignUp,Login scenes">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/backend/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/backend/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/backend/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/backend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/puzzleguard/backend/BackendApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/backend/src/test/java/com/puzzleguard/backend/BackendApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/puzzleguard/backend/entity/EnglishQuestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/puzzleguard/backend/entity/GeographyQuestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/puzzleguard/backend/entity/MathQuestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/puzzleguard/backend/entity/PIN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/puzzleguard/backend/entity/ResetToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/puzzleguard/backend/entity/Riddles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/puzzleguard/backend/entity/SelectedApps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/puzzleguard/backend/entity/users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/SceneLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/SceneLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/AppSelectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/AppSelectionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/ChoicePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/ChoicePageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/DigitInputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/DigitInputController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/EmailResetMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/EmailResetMessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/LogInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/LogInController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/MethodSelectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/MethodSelectionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/NewPINEntryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/NewPINEntryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PINSetUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PINSetUpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PasswordResetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PasswordResetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PaymentSelectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PaymentSelectionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PersonalInfoResetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/PersonalInfoResetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/RiddlesSetUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/RiddlesSetUpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/SignUpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/SubscriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/java/org/example/puzzleguardinterface/controllers/SubscriptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +175,8 @@
       <workItem from="1781033603701" duration="6991000" />
       <workItem from="1781202004623" duration="8160000" />
       <workItem from="1781287560918" duration="12736000" />
-      <workItem from="1781547951496" duration="1302000" />
+      <workItem from="1781547951496" duration="2520000" />
+      <workItem from="1781636825686" duration="6143000" />
     </task>
     <task id="LOCAL-00001" summary="Loading,Log in, Sign UP pages done">
       <option name="closed" value="true" />
