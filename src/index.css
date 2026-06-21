@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0A1628;       /* картка / база */
+  --color-navy-deep: #0F1E35;  /* кінець градієнта фону */
+  --color-mint: #60EEB2;       /* зелений акцент */
+  --color-bluegrey: #A7B3D2;   /* другорядний текст */
+  --color-field: #334B6C;      /* фон поля вводу */
+  --font-mooli: "Mooli", sans-serif;
+}
