@@ -33,7 +33,7 @@ function LogoIcon({ className = "" }) {
   );
 }
 
-// Іконка бургер / хрестик (inline SVG, щоб не ставити окремий пакет)
+// Іконка бургер / хрестик (inline SVG)
 function MenuIcon({ open }) {
   return (
     <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
