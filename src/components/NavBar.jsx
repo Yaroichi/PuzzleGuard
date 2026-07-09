@@ -56,7 +56,7 @@ function MenuIcon({ open }) {
   );
 }
 
-export default function Header({ onSupportClick }) {
+export default function NavBar({ onSupportClick }) {
   const [open, setOpen] = useState(false);
 
   const navItems = [
