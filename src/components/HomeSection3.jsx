@@ -17,7 +17,7 @@ function Chevron({ dir = "right", className = "" }) {
   );
 }
 
-// Дані слайдів. Додавай сюди відгуки — крапки-пагінація зʼявляться самі.
+// Дані слайдів.
 const slides = [
   {
     title: "For people who want to learn more",
