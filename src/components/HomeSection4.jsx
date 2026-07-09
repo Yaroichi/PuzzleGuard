@@ -53,7 +53,7 @@ const plans = [
 
 export default function HomeSection4() {
   return (
-    <section className="relative bg-gradient-to-b from-[#0A1628] via-[#1A2942] to-[#0F1E35]">
+    <section id="subscriptions" className="relative bg-gradient-to-b from-[#0A1628] via-[#1A2942] to-[#0F1E35]">
       {/* Зелена лінія-роздільник зверху секції */}
       <div className="h-px w-full bg-[linear-gradient(to_right,transparent,#60EEB2,transparent)]" />
 
