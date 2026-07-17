@@ -25,7 +25,7 @@ export default function SupportModal({ open, onClose }) {
   };
 
   const inputClass =
-    "w-full rounded-xl bg-gradient-to-br from-[#0A1628] via-[#17325B] to-[#0A1628] px-4 py-3 font-mooli text-white placeholder:text-[#A7B3D2] focus:outline-none focus:ring-2 focus:ring-[#60EEB2]";
+    "w-full rounded-xl bg-gradient-to-b from-[#0A1628]/25 via-[#17325B]/25 to-[#0A1628]/15 px-4 py-3 font-mooli text-white placeholder:text-[#A7B3D2] focus:outline-none focus:ring-2 focus:ring-[#60EEB2]";
   const labelClass = "font-mooli text-[#A7B3D2] lg:text-xl";
 
   return (
@@ -36,7 +36,7 @@ export default function SupportModal({ open, onClose }) {
     >
       {/* Сама панель. stopPropagation — щоб клік усередині не закривав. */}
       <div
-        className="relative max-h-[90vh] w-full max-w-[720px] overflow-y-auto rounded-[28px] bg-gradient-to-br from-[#0A1628] via-[#17325B] to-[#0A1628] p-6 sm:p-10 lg:p-14"
+        className="relative max-h-[90vh] w-full max-w-[720px] overflow-y-auto rounded-[28px] bg-gradient-to-br from-[#0A1628] via-[#1A2942] to-[#0F1E35] p-6 sm:p-10 lg:p-14"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Кнопка закриття */}

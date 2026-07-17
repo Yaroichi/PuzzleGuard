@@ -21,9 +21,9 @@ export default function ScrollToTop() {
       type="button"
       onClick={scrollUp}
       aria-label="Наверх"
-      className="fixed bottom-8 right-8 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-[#4CE1AE] via-[#65C1DB] to-[#75ADF7] text-[#0A1628] shadow-lg transition-opacity hover:opacity-90"
+      className="fixed bottom-5 right-5 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-[#4CE1AE] via-[#65C1DB] to-[#75ADF7] text-[#0A1628] shadow-lg transition-opacity hover:opacity-90 lg:bottom-8 lg:right-8 lg:h-14 lg:w-14"
     >
-      <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" aria-hidden="true">
+      <svg viewBox="0 0 24 24" className="h-5 w-5 lg:h-6 lg:w-6" fill="none" aria-hidden="true">
         <path
           d="M12 19V5M5 12l7-7 7 7"
           stroke="currentColor"

@@ -1,4 +1,4 @@
-// Лого PuzzleGuard (щит + пазл) — той самий, що в шапці
+// Лого PuzzleGuard (щит + пазл)
 function FooterLogo({ className = "" }) {
   return (
     <svg viewBox="0 0 41.25 45" className={className} xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -25,10 +25,10 @@ function FooterLogo({ className = "" }) {
   );
 }
 
-// Колонки посилань — правиш лише цей масив, щоб додати/змінити пункти
+// Колонки посилань
 const columns = [
   { title: "Product", links: ["About", "Puzzles", "Pricing"] },
-  { title: "Contacts", links: ["Help Center", "Guides", "Community", "Contact"] },
+  { title: "Contacts", links: ["Help Center", "Guides", "Contact"] },
   { title: "Legal", links: ["Privacy", "Cookie settings", "Security"] },
 ];
 
@@ -40,18 +40,19 @@ export default function Footer() {
 
       <div className="mx-auto max-w-[1600px] px-5 py-14 md:px-8 lg:px-16">
         {/* Картка */}
-        <div className="rounded-[30px] border border-white/5 bg-[#0A1628] p-8 lg:p-12">
-          <div className="flex flex-col gap-12 lg:flex-row lg:justify-between lg:gap-8">
+        <div className="rounded-[30px] border border-white/5 bg-[#0A1628] p-6 sm:p-8 lg:p-12">
+          {/* Стовпчиком аж до xl; поряд — лише на широких екранах */}
+          <div className="flex flex-col gap-12 xl:flex-row xl:justify-between xl:gap-16">
             {/* Ліва частина — розсилка */}
-            <div className="max-w-[560px]">
+            <div className="w-full xl:max-w-[520px]">
               <div className="flex items-center gap-3">
-                <FooterLogo className="h-11 w-auto shrink-0" />
-                <h3 className="font-mooli text-2xl leading-tight text-white lg:text-[36px]">
+                <FooterLogo className="h-10 w-auto shrink-0" />
+                <h3 className="font-mooli text-2xl leading-tight text-white lg:text-[28px]">
                   Stay sharp with weekly puzzles
                 </h3>
               </div>
 
-              <p className="mt-5 font-mooli text-base text-[#A7B3D2] lg:text-[25px]">
+              <p className="mt-5 font-mooli text-base text-[#A7B3D2] lg:text-lg">
                 Don’t miss out on fun puzzles and updates! Subscribe to get
                 weekly quizzes, news, and special bonuses for our subscribers.
               </p>
@@ -61,7 +62,7 @@ export default function Footer() {
                 <input
                   type="email"
                   placeholder="you@gmail.com"
-                  className="h-[54px] w-full max-w-[367px] rounded-[15px] bg-[#334B6C] px-4 font-mooli text-lg text-white placeholder:text-white/70 focus:outline-none focus:ring-2 focus:ring-[#60EEB2]"
+                  className="h-[54px] w-full min-w-0 max-w-[367px] flex-1 rounded-[15px] bg-[#334B6C] px-4 font-mooli text-lg text-white placeholder:text-white/70 focus:outline-none focus:ring-2 focus:ring-[#60EEB2]"
                 />
                 <button
                   type="button"
@@ -72,7 +73,7 @@ export default function Footer() {
               </div>
 
               {/* Погодження */}
-              <p className="mt-5 font-mooli text-sm text-white lg:text-lg">
+              <p className="mt-5 font-mooli text-sm text-white lg:text-base">
                 By subscribing you agree to our{" "}
                 <a href="#" className="text-[#A78BFA] hover:underline">
                   Privacy Policy
@@ -82,18 +83,18 @@ export default function Footer() {
             </div>
 
             {/* Права частина — колонки посилань */}
-            <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:gap-12">
+            <div className="grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-3 xl:gap-x-12">
               {columns.map((col) => (
-                <div key={col.title}>
-                  <h4 className="font-mooli text-xl text-white lg:text-[32px]">
+                <div key={col.title} className="min-w-0">
+                  <h4 className="font-mooli text-lg text-white lg:text-2xl">
                     {col.title}
                   </h4>
-                  <ul className="mt-4 flex flex-col gap-4">
+                  <ul className="mt-4 flex flex-col gap-3">
                     {col.links.map((link) => (
                       <li key={link}>
                         <a
                           href="#"
-                          className="font-mooli text-base text-[#A7B3D2] transition-colors hover:text-white lg:text-[28px]"
+                          className="font-mooli text-base text-[#A7B3D2] transition-colors hover:text-white lg:text-xl"
                         >
                           {link}
                         </a>
@@ -106,8 +107,8 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Копірайт */}
-        <p className="mt-8 text-center font-mooli text-base text-[#A7B3D2] lg:text-right lg:text-[28px]">
+        {/* Копірайт — завжди по центру */}
+        <p className="mt-8 text-center font-mooli text-base text-[#A7B3D2] lg:text-lg">
           ©2025 PuzzleGuard. All rights reserved.
         </p>
       </div>
