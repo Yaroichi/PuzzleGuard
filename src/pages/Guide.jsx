@@ -1,7 +1,9 @@
+import GuideSection1 from "../components/GuideSection1";
 export default function Guide() {
   return (
     <>
-    {/* Тут далі буде Section 1, Section 2 ... */}
+    <GuideSection1 />
+    
     </>
   );
 }

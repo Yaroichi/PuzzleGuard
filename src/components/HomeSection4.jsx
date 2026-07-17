@@ -26,7 +26,7 @@ const plans = [
   {
     name: "Pro",
     subtitle: "Everything to build a daily habit.",
-    price: "9$",
+    price: "5$",
     features: [
       "Unlimited puzzles",
       "Smart hints & solutions",
@@ -39,7 +39,7 @@ const plans = [
   {
     name: "Premium",
     subtitle: "For power users and teams.",
-    price: "19$",
+    price: "10$",
     features: [
       "All Pro features",
       "Custom challenges",
