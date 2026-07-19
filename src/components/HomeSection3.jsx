@@ -50,7 +50,6 @@ export default function HomeSection3() {
   const count = slides.length;
   const prev = () => setCurrent((c) => (c - 1 + count) % count);
   const next = () => setCurrent((c) => (c + 1) % count);
-  const slide = slides[current];
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-[#0A1628] via-[#1A2942] to-[#0F1E35]">
@@ -62,7 +61,7 @@ export default function HomeSection3() {
         src={circlePhoto}
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute right-16 top-24 hidden h-[178px] w-[178px] rounded-full object-cover opacity-90 lg:block"
+        className="pointer-events-none absolute right-16 top-24 hidden h-[178px] w-[178px] rounded-full object-cover opacity-90 2xl:block"
       />
 
       <div className="mx-auto max-w-[1600px] px-5 py-16 md:px-8 lg:px-16 lg:py-24">
@@ -78,31 +77,39 @@ export default function HomeSection3() {
             type="button"
             onClick={prev}
             aria-label="Попередній"
-            className="absolute -left-4 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-gradient-to-br from-[#1E5A50]/40 to-[#287864]/40 text-white transition-opacity hover:opacity-90 lg:-left-24 lg:h-16 lg:w-16"
+            className="absolute left-2 top-1/2 z-10 -translate-y-1/2 text-white/80 transition-colors hover:text-white sm:left-4 lg:left-6"
           >
-            <Chevron dir="left" className="h-6 w-6 lg:h-7 lg:w-7" />
+            <Chevron dir="left" className="h-8 w-8 lg:h-12 lg:w-12" />
           </button>
           <button
             type="button"
             onClick={next}
             aria-label="Наступний"
-            className="absolute -right-4 top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-gradient-to-br from-[#1E5A50]/40 to-[#287864]/40 text-white transition-opacity hover:opacity-90 lg:-right-24 lg:h-16 lg:w-16"
+            className="absolute right-2 top-1/2 z-10 -translate-y-1/2 text-white/80 transition-colors hover:text-white sm:right-4 lg:right-6"
           >
-            <Chevron dir="right" className="h-6 w-6 lg:h-7 lg:w-7" />
+            <Chevron dir="right" className="h-8 w-8 lg:h-12 lg:w-12" />
           </button>
 
           {/* Картка-слайд */}
-          <div className="rounded-[40px] bg-gradient-to-br from-[#1E5A50]/40 to-[#287864]/40 p-8 text-center lg:rounded-[95px] lg:p-16">
-            <h3 className="font-mooli text-2xl text-white lg:text-[64px]">
-              {slide.title}
-            </h3>
-            <p className="mt-6 font-mooli text-lg leading-relaxed text-white lg:mt-10 lg:text-[36px]">
-              {slide.text}
-            </p>
+          <div className="grid rounded-[40px] bg-gradient-to-br from-[#1E5A50] to-[#287864] lg:rounded-[95px]">
+            {slides.map((s, i) => (
+              <div
+                key={i}
+                className={`col-start-1 row-start-1 flex flex-col items-center justify-center p-8 px-14 text-center transition-opacity duration-300 lg:p-16 lg:px-24 ${
+                  i === current ? "opacity-100" : "invisible opacity-0"
+                }`}
+              >
+                <h3 className="font-mooli text-2xl text-white lg:text-[64px]">
+                  {s.title}
+                </h3>
+                <p className="mt-6 font-mooli text-lg leading-relaxed text-white lg:mt-10 lg:text-[48px]">
+                  {s.text}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
 
-        {/* Крапки-пагінація */}
         <div className="mt-8 flex justify-center gap-3">
           {slides.map((_, i) => (
             <button
