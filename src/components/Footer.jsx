@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 // Лого PuzzleGuard (щит + пазл)
 function FooterLogo({ className = "" }) {
   return (
@@ -29,7 +32,14 @@ function FooterLogo({ className = "" }) {
 const columns = [
   { title: "Product", links: ["About", "Puzzles", "Pricing"] },
   { title: "Contacts", links: ["Help Center", "Guides", "Contact"] },
-  { title: "Legal", links: ["Privacy", "Cookie settings", "Security"] },
+  {
+    title: "Legal",
+    links: [
+      { label: "Privacy", to: "/privacy" },
+      { label: "Cookie settings", to: "/cookies" },
+      { label: "Security", to: "/security" },
+    ],
+  },
 ];
 
 export default function Footer() {
@@ -90,16 +100,26 @@ export default function Footer() {
                     {col.title}
                   </h4>
                   <ul className="mt-4 flex flex-col gap-3">
-                    {col.links.map((link) => (
-                      <li key={link}>
-                        <a
-                          href="#"
-                          className="font-mooli text-base text-[#A7B3D2] transition-colors hover:text-white lg:text-xl"
-                        >
-                          {link}
-                        </a>
-                      </li>
-                    ))}
+                    {col.links.map((link) => {
+                      // Поки що Product/Contacts — це рядки, а Legal — обʼєкти з адресою
+                      const label = link.label ?? link;
+                      const style =
+                        "font-mooli text-base text-[#A7B3D2] transition-colors hover:text-white lg:text-xl";
+
+                      return (
+                        <li key={label}>
+                          {link.to ? (
+                            <Link to={link.to} className={style}>
+                              {label}
+                            </Link>
+                          ) : (
+                            <a href="#" className={style}>
+                              {label}
+                            </a>
+                          )}
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               ))}
