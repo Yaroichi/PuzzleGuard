@@ -125,12 +125,11 @@ export default function Footer() {
               ))}
             </div>
           </div>
+          {/* Копірайт — усередині картки, справа знизу */}
+          <p className="mt-10 text-center font-mooli text-base text-[#A7B3D2] sm:text-right lg:text-lg">
+            ©2025 PuzzleGuard. All rights reserved.
+          </p>
         </div>
-
-        {/* Копірайт — завжди по центру */}
-        <p className="mt-8 text-center font-mooli text-base text-[#A7B3D2] lg:text-lg">
-          ©2025 PuzzleGuard. All rights reserved.
-        </p>
       </div>
     </footer>
   );
